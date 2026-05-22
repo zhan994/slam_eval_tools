@@ -10,5 +10,16 @@ To run the scripts in folder `tools/`, please install the official `evo` package
 pip3 install evo
 ```
 
+## Run
+
+Run tools like `evo`, 
+
+```bash
+sh tools/traj.sh tum seq_ref.txt seq.txt -p
+sh tools/ape.sh tum seq_ref.txt seq.txt -r angle_deg
+```
+
+
+
 ## Related Work
 [evo](https://github.com/MichaelGrupp/evo/tree/86f52ade6da8cc4749c6170b1d2771ea1e0f1c66): Python package for the evaluation of odometry and SLAM.
